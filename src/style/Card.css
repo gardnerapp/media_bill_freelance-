@@ -1,0 +1,19 @@
+.myCol{
+    background: white ;
+    padding: .3em;
+   box-shadow: 0px 0px 10px 10px #888888 ;
+    border-radius: 25px;
+}
+
+
+.quote{
+    padding: 1.5em;
+    margin: 1em;
+    text-align: center;
+    text-align: -moz-center;
+    text-align: -webkit-center;
+    border-radius: 30%;
+    text-overflow: inherit;
+    font-family: "Marker Felt";
+}
+

@@ -1,0 +1,44 @@
+.cursive-title{
+ font-family: "Marker Felt";
+    font-size: 30px;
+}
+
+li.nav-item{
+    font-size: 3em;
+    margin: .1em;
+}
+
+.fa-facebook-square {
+    color: rgb(59, 91, 152);
+  }
+
+/* IG == purple red orange from top right down
+background:-moz-linear-gradient(180deg, orange, red, rgb(204,20,255));
+    background: -webkit-linear-gradient(180deg, orange, red, rgb(204,20,255));
+ */
+.fa-instagram {
+  color: transparent;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+}
+
+@keyframes shake{
+    10%, 90%{
+        transform: translate3d(-1px,0,0);
+    }
+
+    20%,80%{
+        transform: translate3d(2px,0,0);
+    }
+
+    30%,50%, 70%{
+        transform: translate3d(-4px,0,0);
+    }
+
+    40%,60%{
+        transform: translate3d(4px,0,0);
+    }
+}
+
+i:hover{animation: shake .82s 2}
